@@ -7,7 +7,7 @@
 	<include file="$(find turtlebot3_teleop)/launch/turtlebot3_teleop_key.launch" />
 
 	<include file="$(find gazebo_ros)/launch/empty_world.launch">
-		<arg name="world_name" value="/home/ilya/Dropbox/RobTech/Lab2/HouseMap.xml"/>
+		<arg name="world_name" value="/home/ilya/Dropbox/RobTech/Lab2/goto_mover/world/HouseMap.xml"/>
 		<arg name="paused" value="false"/>
 		<arg name="use_sim_time" value="true"/>
 		<arg name="gui" value="true"/>
