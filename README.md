@@ -1,8 +1,8 @@
 # ROS-AStar
-Package contains test world with build map, launch files to start mapping, launch amcl and A*.
+Package contains test world with built map, launch files to start mapping, launch amcl or A*.
 To create new map:
 
-    rosrun goto_mover mapping.launch 
+    roslaunch goto_mover mapping.launch 
 To launch A* planner separately on the map run:
 
     rosrun goto_mover planner.py
